@@ -7,10 +7,10 @@ int n;
 
 void f(int x) {
     if(x == 1)  return ;
-    for(int i = 0; i < n/2; i ++)
-        a[i] += a[n - i - 1];
-    n /= 2;
-    f(n);
+    for(int i = 0; i < x/2; i ++)
+        a[i] += a[x - i - 1];
+    x /= 2;
+    f(x);
 }
 
 int main() {

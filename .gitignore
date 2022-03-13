@@ -106,3 +106,4 @@ ui_*.h
 !/**/.vscode/launch.json
 !/**/.vscode/tasks.json
 *.x86_64
+*.in

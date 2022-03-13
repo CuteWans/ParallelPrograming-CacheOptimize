@@ -5,7 +5,7 @@ using namespace std;
 signed main(int argc, char* argv[]) {
   random_device            rd;
   mt19937                  mt(rd());
-  uniform_int_distribution dist(-100, 100);
+  uniform_int_distribution <int> dist(-100, 100);
   ios_base::sync_with_stdio(false);
   cin.tie(nullptr);
   cout.tie(nullptr);
